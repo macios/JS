@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+         <script type="application/javascript">
+            function showImage(basedata) {
+                var tz_image = document.getElementById('tz_image');
+                tz_image.innerHTML="<image style='width:200px;height:200px;' src='data:image/png;base64,"+basedata+"'>";
+            };
+         
+            function openVC(vc){
+                alert(navResult(vc));
+            }
+         function openAAA(a){
+         }
+         
+         
+        </script>
+		<title>JavaScriptCore 使用</title>
+	</head>
+	<body>        
+        <button onclick="openIosAblum()" style="width: 80px;height: 35px;">上传图片</button>
+        <div id='tz_image'></div>
+        <div>
+        <a href="javascript:void(0);" class="openbtn"  onclick="openVC('Home')"><font size = 20>测试</font></a>
+        </div>
+        <div>
+            <a href="javascript:void(0);" class="openbtn"  onclick="openAAA('Home')"><font size = 20>nihao</font></a>
+        </div>
+	</body>
+</html>
